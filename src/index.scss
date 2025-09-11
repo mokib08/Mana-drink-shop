@@ -1,0 +1,23 @@
+
+@font-face{
+  font-family: 'myfont';
+  src: url('../src/assets/font/Urbanist-Italic-VariableFont_wght.ttf') format('truetype');
+
+}
+
+$primary-color: #fff;
+
+body {
+  font-family: 'myfont';
+  background-color: $primary-color;
+
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+.main-app{
+  padding: 0 8rem;
+}
