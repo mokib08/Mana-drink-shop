@@ -1,15 +1,18 @@
 
+$primary-color: #f4cfe6;
+
 @font-face{
-  font-family: 'myfont';
-  src: url('../src/assets/font/Urbanist-Italic-VariableFont_wght.ttf') format('truetype');
+  font-family: 'firstFont';
+  src: url('../src/assets/font/Poppins-Regular.ttf');
 
 }
 
-$primary-color: #fff;
+
 
 body {
-  font-family: 'myfont';
-  background-color: $primary-color;
+  font-family:  'firstFont';
+  background: linear-gradient(#f9e3f1, #fdeffd, #fffdff );
+  background-repeat: no-repeat;
 
 
   h1 {
@@ -19,5 +22,5 @@ body {
 }
 
 .main-app{
-  padding: 0 8rem;
+  padding: 0 5rem;
 }

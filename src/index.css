@@ -1,10 +1,11 @@
 @font-face {
-  font-family: "myfont";
-  src: url("../src/assets/font/Urbanist-Italic-VariableFont_wght.ttf") format("truetype");
+  font-family: "firstFont";
+  src: url("../src/assets/font/Poppins-Regular.ttf");
 }
 body {
-  font-family: "myfont";
-  background-color: #fff;
+  font-family: "firstFont";
+  background: linear-gradient(#f9e3f1, #fdeffd, #fffdff);
+  background-repeat: no-repeat;
 }
 body h1 {
   font-size: 2rem;
@@ -12,5 +13,5 @@ body h1 {
 }
 
 .main-app {
-  padding: 0 8rem;
+  padding: 0 5rem;
 }/*# sourceMappingURL=index.css.map */
