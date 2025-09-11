@@ -11,7 +11,7 @@ import men3 from '../../assets/image/men3.jpg'
 
 const Home = () => {
   return (
-    <div>
+    <div className='main-home'>
       <div className='section-1'>
         <div className='child-div-1'>
           <h1>Just say goodbye to <br /> <div className='str'><img src={str} alt="" /></div> being thirsty. <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button> </h1>
@@ -38,17 +38,30 @@ const Home = () => {
               </div>
             </div>
             <div className='bt-right'>
-              icon
+              <i class="fa-solid fa-bolt"></i>
               <p>The drink of the nation.</p>
               <div className="btn">
-                <button>Caffeine</button>
-                <button>Citric acid</button>
-                <button>lemon</button>
-                <button>cane sugar</button>
+                <button className='btn-1'>Caffeine</button>
+                <button className='btn-2'>Citric acid</button><br />
+                <button className='btn-3'>lemon</button>
+                <button className='btn-4'>cane sugar</button>
               </div>
             </div>
         </div>
       </div>
+
+     <div className="section-2">
+        <div>
+          <img src={img1} alt="" />
+        </div>
+        <div>
+          <p>Boost Eneroy</p>
+          <h1>Turning fantasies into reality. <button>Our Story icon</button></h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, voluptatibus dignissimos.</p>
+        </div>
+        <div><img src={img4} alt="" /></div>
+     </div>
+
     </div>
   )
 }

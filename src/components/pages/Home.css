@@ -3,22 +3,28 @@
   font-family: "h1Font";
   src: url("../src/assets/font/PTSerif-Bold.ttf");
 }
-.section-1 .child-div-1 h1 {
+.main-home {
+  position: relative;
+}
+.main-home .section-1 {
+  padding: 0 5rem;
+}
+.main-home .section-1 .child-div-1 h1 {
   font-family: "h1Font";
   font-size: 6rem;
   line-height: 6rem;
   color: #572444;
 }
-.section-1 .child-div-1 h1 .str {
+.main-home .section-1 .child-div-1 h1 .str {
   width: 4vw;
   display: inline-block;
   margin-left: 7rem;
 }
-.section-1 .child-div-1 h1 .str img {
+.main-home .section-1 .child-div-1 h1 .str img {
   width: 3vw;
   margin-bottom: -1rem;
 }
-.section-1 .child-div-1 h1 button {
+.main-home .section-1 .child-div-1 h1 button {
   border: 2px solid #111;
   padding: 0.8rem 1rem;
   border-radius: 50px;
@@ -27,7 +33,7 @@
   font-family: "firstFont";
   transform: translateY(-40%);
 }
-.section-1 .child-div-1 h1 button .arrow {
+.main-home .section-1 .child-div-1 h1 button .arrow {
   background: #572444;
   color: #fff;
   padding: 10px;
@@ -35,48 +41,51 @@
   margin-right: -10px;
   margin-left: 1.5rem;
 }
-.section-1 .child-div-1 p {
+.main-home .section-1 .child-div-1 p {
   text-align: center;
   font-size: 1.2rem;
   margin-top: -2rem;
 }
-.section-1 .child-div-1 p bold {
+.main-home .section-1 .child-div-1 p bold {
   font-weight: 600;
 }
-.section-1 .header-bottom {
+.main-home .section-1 .header-bottom {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   gap: 1rem;
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
-.section-1 .header-bottom .bt-left .left-img img {
+.main-home .section-1 .header-bottom .bt-left {
+  width: 13vw;
+}
+.main-home .section-1 .header-bottom .bt-left .left-img img {
   width: 3vw;
   height: 3vw;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
 }
-.section-1 .header-bottom .bt-left .left-img .img-2 {
+.main-home .section-1 .header-bottom .bt-left .left-img .img-2 {
   margin-left: -0.5rem;
 }
-.section-1 .header-bottom .bt-left h3 {
+.main-home .section-1 .header-bottom .bt-left h3 {
   line-height: 25px;
   margin: 0.7rem 0;
   color: #572444;
 }
-.section-1 .header-bottom .bt-left p {
+.main-home .section-1 .header-bottom .bt-left p {
   font-size: 13px;
   margin: 0.7rem 0;
   font-weight: 600;
   color: #431331;
 }
-.section-1 .header-bottom .bt-center {
+.main-home .section-1 .header-bottom .bt-center {
   display: flex;
   align-items: center;
   justify-content: center; /* সবকিছু হরিজন্টালি সেন্টারে */
 }
-.section-1 .header-bottom .bt-center .ctn-iamge {
+.main-home .section-1 .header-bottom .bt-center .ctn-iamge {
   position: relative; /* ভেতরের absolute child গুলো ধরে রাখবে */
   display: flex;
   align-items: center;
@@ -85,22 +94,71 @@
   /* Middle Image */
   /* Right Image */
 }
-.section-1 .header-bottom .bt-center .ctn-iamge img {
+.main-home .section-1 .header-bottom .bt-center .ctn-iamge img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-1 {
+.main-home .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-1 {
   margin-right: -4rem; /* প্রয়োজনে কম-বেশি করো */
   z-index: 1;
 }
-.section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-2 {
+.main-home .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-2 {
   margin-top: -2rem;
   height: 110%;
   z-index: 2; /* সবসময় উপরে থাকবে */
   position: absolute;
 }
-.section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-3 {
-  margin-left: -11rem; /* প্রয়োজনে কম-বেশি করো */
+.main-home .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-3 {
+  margin-left: -9rem; /* প্রয়োজনে কম-বেশি করো */
   z-index: 1;
+}
+.main-home .section-1 .header-bottom .bt-right {
+  transform: translateY(-50%);
+}
+.main-home .section-1 .header-bottom .bt-right i {
+  color: #ffa1d5;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.3rem;
+}
+.main-home .section-1 .header-bottom .bt-right p {
+  font-weight: 600;
+}
+.main-home .section-1 .header-bottom .bt-right .btn button {
+  color: #111;
+  padding: 0.6rem 1rem;
+  margin: 0.2rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: firstFont;
+}
+.main-home .section-1 .header-bottom .bt-right .btn .btn-1 {
+  background-color: #e3c7d8;
+}
+.main-home .section-1 .header-bottom .bt-right .btn .btn-2 {
+  background-color: #f5b864;
+}
+.main-home .section-1 .header-bottom .bt-right .btn .btn-3 {
+  background-color: #ffa1d5;
+  color: #5c0e3e;
+}
+.main-home .section-1 .header-bottom .bt-right .btn .btn-4 {
+  background-color: #87d1f0;
+}
+.main-home .section-2 {
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  border-top: 1px solid #3e3e3e;
+  margin-top: -6.6rem;
+  z-index: 99999;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=Home.css.map */
