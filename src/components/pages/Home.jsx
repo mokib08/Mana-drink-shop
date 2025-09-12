@@ -8,6 +8,8 @@ import img4 from '../../assets/image/img4.png'
 import men1 from '../../assets/image/men1.jpg'
 import men2 from '../../assets/image/men2.jpg'
 import men3 from '../../assets/image/men3.jpg'
+import leaf from '../../assets/image/leaf.png'
+import orange from '../../assets/image/orange.png'
 
 const Home = () => {
   return (
@@ -51,15 +53,18 @@ const Home = () => {
       </div>
 
      <div className="section-2">
-        <div>
-          <img src={img1} alt="" />
-        </div>
-        <div>
-          <p>Boost Eneroy</p>
-          <h1>Turning fantasies into reality. <button>Our Story icon</button></h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, voluptatibus dignissimos.</p>
-        </div>
-        <div><img src={img4} alt="" /></div>
+       <div className='wrapper'>
+           <div className='left-div'><img src={img1} alt="" /></div>
+
+            <div className='center-div'>
+              <img className='image-1' src={orange} alt="" />
+              <img className='image-2' src={leaf} alt="" />
+              <small> <i class="ri-sun-line"></i> Boost Eneroy</small>
+              <h1>Turning fantasies &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; into reality. <button>Our Story <i class="ri-arrow-right-line"></i></button></h1>
+              <p>Elevate your energy, elevate your game</p>
+            </div>
+            <div className='rihgt-div'><img src={img4} alt="" /></div>
+       </div>
      </div>
 
     </div>
