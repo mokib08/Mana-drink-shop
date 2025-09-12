@@ -4,8 +4,6 @@
 }
 body {
   font-family: "firstFont";
-  background: linear-gradient(#f9e3f1, #fdeffd, #fffdff);
-  background-repeat: no-repeat;
 }
 body h1 {
   font-size: 2rem;

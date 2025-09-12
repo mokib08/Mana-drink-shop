@@ -4,27 +4,33 @@
   src: url("../src/assets/font/PTSerif-Bold.ttf");
 }
 .main-home {
+  overflow: hidden;
+}
+.main-home .header-section {
   position: relative;
+  background: linear-gradient(#f9e3f1, #fdeffd, #fffdff);
+  background-repeat: no-repeat;
 }
-.main-home .section-1 {
+.main-home .header-section .section-1 {
   padding: 0 5rem;
+  overflow: hidden;
 }
-.main-home .section-1 .child-div-1 h1 {
+.main-home .header-section .section-1 .child-div-1 h1 {
   font-family: "h1Font";
   font-size: 6rem;
   line-height: 6rem;
   color: #572444;
 }
-.main-home .section-1 .child-div-1 h1 .str {
+.main-home .header-section .section-1 .child-div-1 h1 .str {
   width: 4vw;
   display: inline-block;
   margin-left: 7rem;
 }
-.main-home .section-1 .child-div-1 h1 .str img {
+.main-home .header-section .section-1 .child-div-1 h1 .str img {
   width: 3vw;
   margin-bottom: -1rem;
 }
-.main-home .section-1 .child-div-1 h1 button {
+.main-home .header-section .section-1 .child-div-1 h1 button {
   border: 2px solid #111;
   padding: 0.8rem 1rem;
   border-radius: 50px;
@@ -33,7 +39,7 @@
   font-family: "firstFont";
   transform: translateY(-40%);
 }
-.main-home .section-1 .child-div-1 h1 button .arrow {
+.main-home .header-section .section-1 .child-div-1 h1 button .arrow {
   background: #572444;
   color: #fff;
   padding: 10px;
@@ -41,92 +47,90 @@
   margin-right: -10px;
   margin-left: 1.5rem;
 }
-.main-home .section-1 .child-div-1 p {
+.main-home .header-section .section-1 .child-div-1 p {
   text-align: center;
   font-size: 1.2rem;
   margin-top: -2rem;
 }
-.main-home .section-1 .child-div-1 p bold {
+.main-home .header-section .section-1 .child-div-1 p bold {
   font-weight: 600;
 }
-.main-home .section-1 .header-bottom {
+.main-home .header-section .section-1 .header-bottom {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   gap: 1rem;
   margin-top: 4rem;
+  margin-bottom: -5rem;
 }
-.main-home .section-1 .header-bottom .bt-left {
+.main-home .header-section .section-1 .header-bottom .bt-left {
   width: 13vw;
 }
-.main-home .section-1 .header-bottom .bt-left .left-img img {
+.main-home .header-section .section-1 .header-bottom .bt-left .left-img img {
   width: 3vw;
   height: 3vw;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
 }
-.main-home .section-1 .header-bottom .bt-left .left-img .img-2 {
+.main-home .header-section .section-1 .header-bottom .bt-left .left-img .img-2 {
   margin-left: -0.5rem;
 }
-.main-home .section-1 .header-bottom .bt-left h3 {
+.main-home .header-section .section-1 .header-bottom .bt-left h3 {
   line-height: 25px;
   margin: 0.7rem 0;
   color: #572444;
 }
-.main-home .section-1 .header-bottom .bt-left p {
+.main-home .header-section .section-1 .header-bottom .bt-left p {
   font-size: 13px;
   margin: 0.7rem 0;
   font-weight: 600;
   color: #431331;
 }
-.main-home .section-1 .header-bottom .bt-center {
+.main-home .header-section .section-1 .header-bottom .bt-center {
   display: flex;
   align-items: center;
   justify-content: center; /* সবকিছু হরিজন্টালি সেন্টারে */
 }
-.main-home .section-1 .header-bottom .bt-center .ctn-iamge {
-  position: relative; /* ভেতরের absolute child গুলো ধরে রাখবে */
+.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 60vh;
   /* Left Image */
   /* Middle Image */
   /* Right Image */
 }
-.main-home .section-1 .header-bottom .bt-center .ctn-iamge img {
-  display: block;
+.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge img {
   max-width: 100%;
-  height: auto;
 }
-.main-home .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-1 {
-  margin-right: -4rem; /* প্রয়োজনে কম-বেশি করো */
+.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-1 {
+  margin-right: -24.5rem; /* প্রয়োজনে কম-বেশি করো */
   z-index: 1;
 }
-.main-home .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-2 {
+.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-2 {
   margin-top: -2rem;
   height: 110%;
   z-index: 2; /* সবসময় উপরে থাকবে */
-  position: absolute;
 }
-.main-home .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-3 {
-  margin-left: -9rem; /* প্রয়োজনে কম-বেশি করো */
+.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-3 {
+  margin-left: -23.5rem; /* প্রয়োজনে কম-বেশি করো */
   z-index: 1;
 }
-.main-home .section-1 .header-bottom .bt-right {
+.main-home .header-section .section-1 .header-bottom .bt-right {
   transform: translateY(-50%);
 }
-.main-home .section-1 .header-bottom .bt-right i {
+.main-home .header-section .section-1 .header-bottom .bt-right i {
   color: #ffa1d5;
   background-color: #fff;
   padding: 1rem;
   border-radius: 50%;
   font-size: 1.3rem;
 }
-.main-home .section-1 .header-bottom .bt-right p {
+.main-home .header-section .section-1 .header-bottom .bt-right p {
   font-weight: 600;
 }
-.main-home .section-1 .header-bottom .bt-right .btn button {
+.main-home .header-section .section-1 .header-bottom .bt-right .btn button {
   color: #111;
   padding: 0.6rem 1rem;
   margin: 0.2rem;
@@ -137,89 +141,147 @@
   font-weight: 700;
   font-family: firstFont;
 }
-.main-home .section-1 .header-bottom .bt-right .btn .btn-1 {
+.main-home .header-section .section-1 .header-bottom .bt-right .btn .btn-1 {
   background-color: #e3c7d8;
 }
-.main-home .section-1 .header-bottom .bt-right .btn .btn-2 {
+.main-home .header-section .section-1 .header-bottom .bt-right .btn .btn-2 {
   background-color: #f5b864;
 }
-.main-home .section-1 .header-bottom .bt-right .btn .btn-3 {
+.main-home .header-section .section-1 .header-bottom .bt-right .btn .btn-3 {
   background-color: #ffa1d5;
   color: #5c0e3e;
 }
-.main-home .section-1 .header-bottom .bt-right .btn .btn-4 {
+.main-home .header-section .section-1 .header-bottom .bt-right .btn .btn-4 {
   background-color: #87d1f0;
 }
-.main-home .section-2 {
-  width: 100%;
-  height: 100vh;
+.main-home .header-section .section-2 {
+  width: 100vw;
   background: #ffffff;
   border-top: 1px solid #3e3e3e;
-  margin-top: -6.6rem;
-  z-index: 99999;
-  position: absolute;
 }
-.main-home .section-2 .wrapper {
+.main-home .header-section .section-2 .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  padding-bottom: 10rem;
 }
-.main-home .section-2 .wrapper .left-div img {
-  width: 30vw;
+.main-home .header-section .section-2 .wrapper .left-div img {
+  width: 28vw;
   margin-bottom: -10rem;
   margin-left: -4rem;
   transform: rotate(-12deg);
 }
-.main-home .section-2 .wrapper .center-div {
+.main-home .header-section .section-2 .wrapper .center-div {
   position: relative;
-  width: 35vw;
+  width: 34vw;
   text-align: center;
   padding-top: 5rem;
 }
-.main-home .section-2 .wrapper .center-div small {
+.main-home .header-section .section-2 .wrapper .center-div small {
   background-color: #e3c9d8;
   padding: 0.3rem 1rem;
   border-radius: 50px;
   font-size: 0.9rem;
   font-weight: 500;
 }
-.main-home .section-2 .wrapper .center-div h1 {
+.main-home .header-section .section-2 .wrapper .center-div h1 {
   font-family: "h1Font";
   font-size: 3rem;
   color: #572444;
   line-height: 3.5rem;
 }
-.main-home .section-2 .wrapper .center-div h1 button {
+.main-home .header-section .section-2 .wrapper .center-div h1 button {
   border: none;
   font-family: "firstFont";
   background-color: #fff;
   font-size: medium;
   cursor: pointer;
 }
-.main-home .section-2 .wrapper .center-div h1 button i {
+.main-home .header-section .section-2 .wrapper .center-div h1 button i {
   border: 1px solid #111;
   border-radius: 50px;
   padding: 0.2rem;
   margin-left: 10px;
 }
-.main-home .section-2 .wrapper .center-div p {
+.main-home .header-section .section-2 .wrapper .center-div p {
   color: #28091a;
   font-weight: 500;
 }
-.main-home .section-2 .wrapper .center-div img {
+.main-home .header-section .section-2 .wrapper .center-div img {
   position: absolute;
   width: 7vw;
 }
-.main-home .section-2 .wrapper .center-div .image-1 {
+.main-home .header-section .section-2 .wrapper .center-div .image-1 {
   bottom: 1rem;
   left: -7rem;
 }
-.main-home .section-2 .wrapper .center-div .image-2 {
+.main-home .header-section .section-2 .wrapper .center-div .image-2 {
   right: -3rem;
 }
-.main-home .section-2 .wrapper .rihgt-div img {
-  width: 30vw;
+.main-home .header-section .section-2 .wrapper .rihgt-div img {
+  width: 28vw;
   margin-top: -8rem;
-  transform: rotate(12deg);
+  transform: rotate(16deg);
+}
+.main-home .section-3 {
+  width: 100vw;
+}
+.main-home .section-3 h1 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.main-home .section-3 .Expire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.9rem;
+}
+.main-home .section-3 .Expire p {
+  font-size: 1.2rem;
+}
+.main-home .section-3 .flavor-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.main-home .section-3 .flavor-card .card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-home .section-3 .flavor-card .card span {
+  border-radius: 50px;
+  background: #fff;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  margin-right: -15rem;
+  font-size: 1.2rem;
+}
+.main-home .section-3 .flavor-card .card span i {
+  color: orange;
+  margin-left: -0.5rem;
+}
+.main-home .section-3 .flavor-card .card button {
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "firstFont";
+  font-weight: 600;
+  border: none;
+  margin-top: -5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.main-home .section-3 .flavor-card .card-1 {
+  background-color: #5c76f3;
+}
+.main-home .section-3 .flavor-card .card-2 {
+  background-color: #d8973a;
+}
+.main-home .section-3 .flavor-card .card-3 {
+  background-color: #f35cb2;
 }/*# sourceMappingURL=Home.css.map */

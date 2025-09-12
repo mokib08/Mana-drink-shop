@@ -14,58 +14,87 @@ import orange from '../../assets/image/orange.png'
 const Home = () => {
   return (
     <div className='main-home'>
-      <div className='section-1'>
-        <div className='child-div-1'>
-          <h1>Just say goodbye to <br /> <div className='str'><img src={str} alt="" /></div> being thirsty. <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button> </h1>
+      <div className='header-section'>
+          <div className='section-1'>
+          <div className='child-div-1'>
+            <h1>Just say goodbye to <br /> <div className='str'><img src={str} alt="" /></div> being thirsty. <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button> </h1>
 
-          <p>Thirst <bold>quenching</bold> drink made just for you.</p>
+            <p>Thirst <bold>quenching</bold> drink made just for you.</p>
+          </div>
+
+          <div className="header-bottom">
+              <div className='bt-left'>
+                <div className="left-img">
+                  <img className='img-1' src={men1} alt="" />
+                  <img className='img-2' src={men2} alt="" />
+                  <img className='img-2' src={men3} alt="" />
+                </div>
+                <h3>The drink you need this summer "</h3>
+                <p>Product with great taste, and instant energy</p>
+              </div>
+
+              <div className='bt-center'>
+                <div className='ctn-iamge'>
+                  <img className='ctn-img-1' src={img3} alt="" />
+                    <img className='ctn-img-2' src={img1} alt="" />
+                    <img className='ctn-img-3' src={img4} alt="" />
+                </div>
+              </div>
+              <div className='bt-right'>
+                <i class="fa-solid fa-bolt"></i>
+                <p>The drink of the nation.</p>
+                <div className="btn">
+                  <button className='btn-1'>Caffeine</button>
+                  <button className='btn-2'>Citric acid</button><br />
+                  <button className='btn-3'>lemon</button>
+                  <button className='btn-4'>cane sugar</button>
+                </div>
+              </div>
+          </div>
         </div>
 
-        <div className="header-bottom">
-            <div className='bt-left'>
-              <div className="left-img">
-                <img className='img-1' src={men1} alt="" />
-                <img className='img-2' src={men2} alt="" />
-                <img className='img-2' src={men3} alt="" />
-              </div>
-              <h3>The drink you need this summer "</h3>
-              <p>Product with great taste, and instant energy</p>
-            </div>
+        <div className="section-2">
+          <div className='wrapper'>
+              <div className='left-div'><img src={img1} alt="" /></div>
 
-            <div className='bt-center'>
-              <div className='ctn-iamge'>
-                 <img className='ctn-img-1' src={img3} alt="" />
-                  <img className='ctn-img-2' src={img1} alt="" />
-                  <img className='ctn-img-3' src={img4} alt="" />
-              </div>
-            </div>
-            <div className='bt-right'>
-              <i class="fa-solid fa-bolt"></i>
-              <p>The drink of the nation.</p>
-              <div className="btn">
-                <button className='btn-1'>Caffeine</button>
-                <button className='btn-2'>Citric acid</button><br />
-                <button className='btn-3'>lemon</button>
-                <button className='btn-4'>cane sugar</button>
-              </div>
-            </div>
+                <div className='center-div'>
+                  <img className='image-1' src={orange} alt="" />
+                  <img className='image-2' src={leaf} alt="" />
+                  <small> <i class="ri-sun-line"></i> Boost Eneroy</small>
+                  <h1>Turning fantasies &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; into reality. <button>Our Story <i class="ri-arrow-right-line"></i></button></h1>
+                  <p>Elevate your energy, elevate your game</p>
+                </div>
+                <div className='rihgt-div'><img src={img4} alt="" /></div>
+          </div>
         </div>
       </div>
 
-     <div className="section-2">
-       <div className='wrapper'>
-           <div className='left-div'><img src={img1} alt="" /></div>
+      <div className="section-3">
 
-            <div className='center-div'>
-              <img className='image-1' src={orange} alt="" />
-              <img className='image-2' src={leaf} alt="" />
-              <small> <i class="ri-sun-line"></i> Boost Eneroy</small>
-              <h1>Turning fantasies &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; into reality. <button>Our Story <i class="ri-arrow-right-line"></i></button></h1>
-              <p>Elevate your energy, elevate your game</p>
-            </div>
-            <div className='rihgt-div'><img src={img4} alt="" /></div>
-       </div>
-     </div>
+        <h1>Taste the flover sensation</h1>
+        <div className='Expire'>
+          icon
+          <p>From june to August, this is what we drink.</p>
+        </div>
+
+        <div className="flavor-card">
+          <div className='card card-1'>
+              <span><i class="ri-star-s-fill"></i> 4.7</span>
+              <img src={img4} alt="" />
+              <button>Black Berry & Hibiscus</button>
+          </div>
+          <div className='card card-2'>
+              <span><i class="ri-star-s-fill"></i> 4.7</span>
+              <img src={img3} alt="" />
+              <button>Black Berry & Hibiscus</button>
+          </div>
+          <div className='card card-3'>
+              <span><i class="ri-star-s-fill"></i> 4.7</span>
+              <img src={img1} alt="" />
+              <button>Black Berry & Hibiscus</button>
+          </div>
+        </div>
+      </div>
 
     </div>
   )
