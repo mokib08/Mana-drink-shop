@@ -309,25 +309,28 @@ $font-color: #572444;
     // section-3 theke responsive design kora holo first aproch with phone
     
     .section-3{
-        width: 100vw;
+        width: 96vw;
 
         h1{
             font-size: 1.8rem;
-            text-align: center;
+            margin-bottom: 0;
         }
 
         .Expire{
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 1.9rem;
+            // gap: 1.9rem;
+            margin-bottom: 2rem;
+            padding-top: 0rem;
 
-            i{
-                
+            img{
+                width: 13vw;
+                padding: 0;
             }
-            
             p{
-                font-size: 1.2rem
+                font-size: 1.2rem;
+                font-weight: 500;
             }
         }
 
@@ -369,7 +372,9 @@ $font-color: #572444;
                     margin-top: -5rem;
                     width: 80%;
                     margin-bottom: 1rem;
+                    cursor: pointer;
 
+                    
                 }
                 
             }
@@ -386,6 +391,177 @@ $font-color: #572444;
         }
     }
 
+    .section-4{
+        margin-top: 5rem;
+
+        .section4-main{
+            .section4-leftBox{
+                 .parent-1{
+                    padding: 0 1rem;
+                    span{
+                        background: #e3c7d8;
+                        padding: 0.5rem 1rem;
+                        border-radius: 50px;
+                        font-weight: 600;
+                        
+                    }
+                    h1{
+                        font-size: 1.9rem;
+                        color:#431331;
+                        margin:  0.7rem 0 ; 
+                        text-align: left;
+                    }
+                    h3{
+                        color: #28091a;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    p{
+                        padding-top: 0.7rem;
+                        font-size: 1rem;
+                        font-weight: 700;
+                        margin: 0;
+                    }
+                }
+
+                .parent-2{
+
+                    .flower{
+                        width: 30vw;
+                        transform: translateX(70vw);
+                        margin-bottom: -3rem;
+                    }
+
+                    .bg-img{
+                        width: 100vw;
+                    }
+
+                    button{
+                        // z-index: 999;
+                        margin-top: -5rem;
+                        position: absolute;
+                        transform: translateX(50vw);
+                        border: 2px solid #111;
+                        padding: 0.8rem 1rem ;
+                        border-radius: 50px;
+                        font-size: 1rem;
+                        font-weight: 800;
+                        font-family: 'firstFont';
+                        // transform: translateY(-40%);
+
+                        .arrow {
+                                        
+                            background: $font-color;
+                            color: #fff;
+                            padding: 10px;
+                            border-radius: 50px;
+                            margin-right: -10px;
+                            margin-left: 1.5rem;
+                        }
+            
+                    }
+                }
+            }
+
+
+            .section4-rightBox{
+                display: none;
+            }
+
+        }
+
+    }
+
+
+    .section-5{
+        margin-top: 3rem;
+
+        .section5-parant{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+
+
+
+            .section5-child-1{
+                width: 100vw;
+                padding: 0 3rem;
+                .sec5-imgIcon{
+                    text-align: center;
+                    font-size: 4rem;
+                }
+
+                .sec5-textIcon{
+                    
+                    text-align: center;
+                    margin-top: -2rem;
+                    span{
+                        width: 8rem;
+                        text-align: center;
+                        background: #f5b864;
+                        padding: 0.4rem;
+                        font-weight: 600;
+                        font-size: 0.9rem;
+                        margin-top: -2rem;
+                        text-transform: uppercase;
+                        border-radius: 50px;
+                    }
+                    
+                }
+
+                .sec5-title{
+                    
+                    h1{
+                        font-size: 1.6rem;
+                        text-align: left;
+                        margin-top: 2rem;
+                        color:#431331;
+                        padding: 0 0.9rem;
+                    }
+                }
+
+                .image-text{
+                    display: flex;
+                    align-items: center;
+                    gap: 1.2rem;
+                    margin-top: 1.5rem;
+
+                    .left-img{
+                        padding: 0 0.8rem;
+                        img{
+                            width: 13vw;
+                            // height: 8vh;
+                            object-fit: cover;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .right-text{
+                        font-weight: 600;
+                        p{
+                            margin: 0;
+                            font-size: 1.2rem;
+                            color: #431331;
+                        }
+                        span{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .section5-child2{
+                width: 100vw;
+                margin-top: 3rem;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
 
 }
 

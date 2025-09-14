@@ -10,6 +10,13 @@ import men2 from '../../assets/image/men2.jpg'
 import men3 from '../../assets/image/men3.jpg'
 import leaf from '../../assets/image/leaf.png'
 import orange from '../../assets/image/orange.png'
+import unnamed from '../../assets/image/unnamed.png'
+import lastingEnergy1 from '../../assets/image/lasting-energy-1.png'
+import lastingEnergy2 from '../../assets/image/lasting-energy-2.png'
+import flower from '../../assets/image/flower.png'
+import story from '../../assets/image/story.png'
+
+
 
 const Home = () => {
   return (
@@ -73,7 +80,7 @@ const Home = () => {
 
         <h1>Taste the flover sensation</h1>
         <div className='Expire'>
-          icon
+          <img src={unnamed} alt="" />
           <p>From june to August, this is what we drink.</p>
         </div>
 
@@ -95,6 +102,87 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="section-4">
+        <div className="section4-main">
+            <div className='section4-leftBox'>
+              <div className="parent-1">
+                  <span> <i class="ri-sun-line"></i> Boost Eneroy</span>
+                  <h1>Drink your way to happiness</h1>
+                  <h3>Get you energy on every sip</h3>
+                  <p>A gentle wave of energy to active you without Jittering.</p>
+              </div>
+              <div className="parent-2">
+                  <div className='child-div'>
+                      <img className='flower' src={flower} alt="" />
+                      {/* <img src="" alt="" /> */}
+                      <img className='bg-img' src={lastingEnergy1} alt="" />
+                      <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button>
+                  </div>
+              </div>
+            </div>
+
+            <div className='section4-rightBox'>
+              <img src={lastingEnergy2} alt="" />
+                <div className="">
+                    <p>A special blend of Taurine, and Vitamins provide smooth long lasting energy</p>
+                    <button>Our Story <i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div className="section-5">
+        <div className="section5-parant">
+          <div className="section5-child-1">
+            <div className="sec5-imgIcon"><i class="fa-solid fa-quote-left"></i></div>
+            <div className="sec5-textIcon">
+              <span><i class="ri-heart-line"></i> our Story</span>
+            </div>
+            <div className="sec5-title">
+              <h1>The benefits of a healthy drink are more important than ever in today's world, so we created one.</h1>
+            </div>
+
+            <div className="image-text">
+              <div className="left-img">
+                <img src={men1} alt="" />
+              </div>
+              <div className="right-text">
+                <p>Rylic Jason</p>
+                <span>Founder of Mana</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="section5-child2">
+            <img src={story} alt="" />
+          </div>
+        </div>
+        
+      </div>
+
+      <div className="section-6">
+        <div className="image-gallary">
+          <div className="img-topText">
+            <div className="title1">
+                <span><i class="ri-global-line"></i> ON SOCIAL</span>
+            </div>
+            <div className="title2">
+                <h1><i class="ri-instagram-line"></i> manamate</h1>
+            </div>
+          </div>
+          <div className="imagesAll">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+          </div>
+        </div>
+      </div>
+
+
 
     </div>
   )
