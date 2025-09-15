@@ -1,0 +1,61 @@
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0.7rem;
+}
+.footer-top .footer-icon img {
+  width: 50%;
+  margin: 0;
+  margin-left: -1.5rem;
+}
+.footer-top .footer-icon p {
+  margin-top: -1rem;
+  font-weight: 600;
+}
+.footer-top .footer-title {
+  width: 100%;
+  margin-top: 1.3rem;
+}
+.footer-top .footer-title .left-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1.4rem;
+}
+.footer-top .footer-title .left-content .content-list li {
+  list-style: none;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer-top .footer-title .left-content .content-list .head-title {
+  font-weight: 700;
+  color: #431331;
+  padding-bottom: 0.8rem;
+}
+.footer-top .footer-title .left-content .content-list h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #431331;
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.footer-bottom .footer-social i {
+  width: 2rem;
+  height: 2rem;
+  background: #431331;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}/*# sourceMappingURL=Footer.css.map */

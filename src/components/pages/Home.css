@@ -4,6 +4,7 @@
   src: url("../src/assets/font/PTSerif-Bold.ttf");
 }
 .main-home {
+  width: 100%;
   overflow: hidden;
 }
 .main-home .header-section {

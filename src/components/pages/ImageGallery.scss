@@ -1,0 +1,85 @@
+// ImageGallery.scss
+@import "https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css";
+
+.section-6{
+    margin: 3.5rem 0;
+
+    .img-topText{
+            width: 96vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            padding-bottom: 1.5rem;
+
+            .title1{
+                font-weight: 500;
+                font-size: 0.8rem;
+                background: #f9a1d3;
+                padding: 0.4rem 0.8rem;
+                border-radius: 50px;
+            }
+
+            .title2{
+                h1{
+                color: #431331;
+                font-size: 1.4rem;
+                }
+            }
+        }
+
+  .parent-div {
+    width: 100%;
+    display: flex;
+    gap: 2rem !important;
+
+    overflow-x: auto; /* scrollable */
+    overflow-y: hidden;
+    scroll-behavior: smooth; /* smooth scroll */
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .child-div {
+      flex: 0 0 auto; /* shrink হবে না */
+      width: 60%; /* card width */
+      display: flex;
+      flex-direction: column;
+
+      img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 1rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+        margin: 1.2rem 0;
+      }
+    }
+  }
+
+  .arrow-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    gap: 1rem;
+
+    i {
+      width: 2vw;
+      height: 2vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #431331;
+      background: #e3c7d8;
+      padding: 1rem;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+  }
+  
+}

@@ -8,9 +8,10 @@ $font-color: #572444;
 }
 
 .main-home{
-    // width: 100vw;
+    width: 100%;
     // height: 100%;
     overflow: hidden;
+    // padding: 1rem;
     
     .header-section{
           position: relative;
@@ -562,6 +563,59 @@ $font-color: #572444;
             }
         }
     }
+
+    // .section-6{
+    //     // width: 100vw;
+    //     margin-top: 3rem;
+    //     .image-gallary{
+    //         .img-topText{
+    //             width: 96vw;
+    //             display: flex;
+    //             align-items: center;
+    //             justify-content: center;
+    //             gap: 2rem;
+
+    //             .title1{
+    //                 font-weight: 500;
+    //                 background: #f9a1d3;
+    //                 padding: 0.4rem 0.8rem;
+    //                 border-radius: 50px;
+    //             }
+
+    //             .title2{
+    //                h1{
+    //                 color: #431331;
+    //                 font-size: 1.5rem;
+    //                }
+    //             }
+    //         }
+
+    //         .imageGallary{
+    //                 width: 100%;
+    //                 display: flex;
+    //                 // align-items: center;
+    //                 justify-content: space-between;
+    //                 gap: 1.2rem;
+    //                 // overflow-x:auto;
+    //             .imagesAll{
+    //                width: 80%;
+    //                display: flex;
+    //                justify-content: space-between;
+    //                 img{
+    //                     width: 70%;
+    //                     height: 50%;
+    //                     object-fit: cover;
+    //                 }
+    //             }
+    //         }
+            
+
+    //     }
+    // }
+
+
+    
+
 
 }
 

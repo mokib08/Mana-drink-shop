@@ -5,7 +5,7 @@ import Navbar from './components/navbar/Navbar'
 const App = () => {
   return (
     <div className='main-app'>
-      <Navbar/>
+      {/* <Navbar/> */}
       <MainRoutes />
     </div>
   )
