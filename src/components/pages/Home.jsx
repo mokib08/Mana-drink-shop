@@ -65,19 +65,27 @@ const Home = () => {
 
         <div className="section-2">
           <div className='wrapper'>
-            <div className='left-div'><img src={img1} alt="" /></div>
-
+            <div className='right-div'><img src={img4} alt="" /></div>
             <div className='center-div'>
               <img className='image-1' src={orange} alt="" />
               <img className='image-2' src={leaf} alt="" />
-              <small> <i class="ri-sun-line"></i> Boost Eneroy</small>
-              <h1>Turning fantasies &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; into reality. <button>Our Story <i class="ri-arrow-right-line"></i></button></h1>
-              <p>Elevate your energy, elevate your game</p>
+              <small> <i class="ri-sun-line"></i> Boost Energy</small>
+              <h1>Turning fantasies into reality. </h1>
+              <p>Full strength of Man is comes from naturally infused taurine.</p>
+
+              <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button>
             </div>
-            <div className='rihgt-div'><img src={img4} alt="" /></div>
+
+            <div className='left-div'><img src={img1} alt="" /></div>
+
+            
+            
           </div>
         </div>
       </div>
+
+
+
 
       <div className="section-3">
 

@@ -156,81 +156,105 @@
   background-color: #87d1f0;
 }
 .main-home .header-section .section-2 {
-  width: 100vw;
+  width: 96vw;
+  height: 10%;
+  overflow: hidden;
   background: #ffffff;
   border-top: 1px solid #3e3e3e;
 }
 .main-home .header-section .section-2 .wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 5rem;
+  overflow: hidden;
+}
+.main-home .header-section .section-2 .wrapper .left-div {
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  padding-bottom: 10rem;
+  margin-top: 5rem;
 }
 .main-home .header-section .section-2 .wrapper .left-div img {
-  width: 28vw;
-  margin-bottom: -10rem;
-  margin-left: -4rem;
-  transform: rotate(-12deg);
+  width: 90vw;
+  transform: rotate(-15deg);
 }
 .main-home .header-section .section-2 .wrapper .center-div {
-  position: relative;
-  width: 34vw;
+  position: absolute;
   text-align: center;
-  padding-top: 5rem;
+  margin-top: 2rem;
+  z-index: 999;
 }
 .main-home .header-section .section-2 .wrapper .center-div small {
   background-color: #e3c9d8;
   padding: 0.3rem 1rem;
   border-radius: 50px;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 .main-home .header-section .section-2 .wrapper .center-div h1 {
   font-family: "h1Font";
   font-size: 3rem;
   color: #572444;
-  line-height: 3.5rem;
-}
-.main-home .header-section .section-2 .wrapper .center-div h1 button {
-  border: none;
-  font-family: "firstFont";
-  background-color: #fff;
-  font-size: medium;
-  cursor: pointer;
-}
-.main-home .header-section .section-2 .wrapper .center-div h1 button i {
-  border: 1px solid #111;
-  border-radius: 50px;
-  padding: 0.2rem;
-  margin-left: 10px;
+  line-height: 3rem;
+  margin: 1rem 0;
 }
 .main-home .header-section .section-2 .wrapper .center-div p {
   color: #28091a;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0 2rem;
 }
 .main-home .header-section .section-2 .wrapper .center-div img {
   position: absolute;
-  width: 7vw;
+  width: 20vw;
 }
 .main-home .header-section .section-2 .wrapper .center-div .image-1 {
-  bottom: 1rem;
-  left: -7rem;
+  bottom: 7rem;
+  right: 1rem;
 }
 .main-home .header-section .section-2 .wrapper .center-div .image-2 {
-  right: -3rem;
+  text-align: center;
+  top: -4rem;
+  right: 35vw;
 }
-.main-home .header-section .section-2 .wrapper .rihgt-div img {
-  width: 28vw;
-  margin-top: -8rem;
-  transform: rotate(16deg);
+.main-home .header-section .section-2 .wrapper .center-div button {
+  border: 2px solid #111;
+  padding: 0.8rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "firstFont";
+  transform: translateY(-40%);
+  margin-top: 10rem;
+}
+.main-home .header-section .section-2 .wrapper .center-div button .arrow {
+  background: #572444;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: -10px;
+  margin-left: 1.5rem;
+}
+.main-home .header-section .section-2 .wrapper .right-div img {
+  width: 90vw;
+  margin-top: -7rem;
+  margin-right: -15rem;
+  transform: rotate(20deg);
 }
 .main-home .section-3 {
   width: 96vw;
+  margin-top: 4rem;
 }
 .main-home .section-3 h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 0;
+  color: #431331;
+  text-align: center;
 }
 .main-home .section-3 .Expire {
   display: flex;
@@ -244,8 +268,9 @@
   padding: 0;
 }
 .main-home .section-3 .Expire p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
+  margin-top: 0.5rem;
 }
 .main-home .section-3 .flavor-card {
   display: flex;
@@ -333,7 +358,7 @@
 .main-home .section-4 .section4-main .section4-leftBox .parent-2 button {
   margin-top: -5rem;
   position: absolute;
-  transform: translateX(50vw);
+  transform: translateX(40vw);
   border: 2px solid #111;
   padding: 0.8rem 1rem;
   border-radius: 50px;
@@ -356,7 +381,7 @@
   margin-top: 3rem;
 }
 .main-home .section-5 .section5-parant {
-  width: 100vw;
+  width: 96vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
