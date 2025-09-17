@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "h1Font";
   src: url("../src/assets/font/PTSerif-Bold.ttf");
@@ -13,25 +12,15 @@
   background-repeat: no-repeat;
 }
 .main-home .header-section .section-1 {
-  padding: 0 5rem;
   overflow: hidden;
 }
 .main-home .header-section .section-1 .child-div-1 h1 {
   font-family: "h1Font";
-  font-size: 6rem;
-  line-height: 6rem;
+  font-size: 3.3rem;
   color: #572444;
 }
-.main-home .header-section .section-1 .child-div-1 h1 .str {
-  width: 4vw;
-  display: inline-block;
-  margin-left: 7rem;
-}
-.main-home .header-section .section-1 .child-div-1 h1 .str img {
-  width: 3vw;
-  margin-bottom: -1rem;
-}
 .main-home .header-section .section-1 .child-div-1 h1 button {
+  display: none;
   border: 2px solid #111;
   padding: 0.8rem 1rem;
   border-radius: 50px;
@@ -49,12 +38,22 @@
   margin-left: 1.5rem;
 }
 .main-home .header-section .section-1 .child-div-1 p {
+  display: none;
   text-align: center;
   font-size: 1.2rem;
   margin-top: -2rem;
 }
 .main-home .header-section .section-1 .child-div-1 p bold {
   font-weight: 600;
+}
+.main-home .header-section .section-1 .child-div-1 .str {
+  position: absolute;
+  top: 2.5rem;
+  right: 1rem;
+}
+.main-home .header-section .section-1 .child-div-1 .str img {
+  width: 22vw;
+  margin-bottom: -1rem;
 }
 .main-home .header-section .section-1 .header-bottom {
   display: flex;
@@ -87,36 +86,6 @@
   margin: 0.7rem 0;
   font-weight: 600;
   color: #431331;
-}
-.main-home .header-section .section-1 .header-bottom .bt-center {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* সবকিছু হরিজন্টালি সেন্টারে */
-}
-.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;
-  /* Left Image */
-  /* Middle Image */
-  /* Right Image */
-}
-.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge img {
-  max-width: 100%;
-}
-.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-1 {
-  margin-right: -24.5rem; /* প্রয়োজনে কম-বেশি করো */
-  z-index: 1;
-}
-.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-2 {
-  margin-top: -2rem;
-  height: 110%;
-  z-index: 2; /* সবসময় উপরে থাকবে */
-}
-.main-home .header-section .section-1 .header-bottom .bt-center .ctn-iamge .ctn-img-3 {
-  margin-left: -23.5rem; /* প্রয়োজনে কম-বেশি করো */
-  z-index: 1;
 }
 .main-home .header-section .section-1 .header-bottom .bt-right {
   transform: translateY(-50%);

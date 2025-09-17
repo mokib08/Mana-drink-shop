@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.scss'
 import str from '../../assets/image/str.png'
+import mainImage from '../../assets/image/main.png'
 import img1 from '../../assets/image/img1.png'
 import img2 from '../../assets/image/img2.png'
 import img3 from '../../assets/image/img3.png'
@@ -27,9 +28,10 @@ const Home = () => {
       <div className='header-section'>
         <div className='section-1'>
           <div className='child-div-1'>
-            <h1>Just say goodbye to <br /> <div className='str'><img src={str} alt="" /></div> being thirsty. <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button> </h1>
+            <h1>Just say goodbye to <br />  being thirsty. <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button> </h1>
 
             <p>Thirst <bold>quenching</bold> drink made just for you.</p>
+            <div className='str'><img src={str} alt="" /></div>
           </div>
 
           <div className="header-bottom">
@@ -45,11 +47,10 @@ const Home = () => {
 
             <div className='bt-center'>
               <div className='ctn-iamge'>
-                <img className='ctn-img-1' src={img3} alt="" />
-                <img className='ctn-img-2' src={img1} alt="" />
-                <img className='ctn-img-3' src={img4} alt="" />
+               <img src={mainImage} alt="" />
               </div>
             </div>
+            
             <div className='bt-right'>
               <i class="fa-solid fa-bolt"></i>
               <p>The drink of the nation.</p>

@@ -40,35 +40,25 @@ $font-color: #572444;
           background-repeat: no-repeat;
          .section-1{
             // width: 100vw;
-            padding: 0 5rem;
+            // padding: rem;
             overflow: hidden;
                 .child-div-1{
 
                     h1{
                         font-family: 'h1Font';
-                        font-size: 6rem;
-                        line-height: 6rem;
+                        font-size: 3.3rem;
+                        // line-height: 6rem;
                         color: $font-color;
 
-                    
-
-                        .str{
-                            width: 4vw;
-                            display: inline-block;
-                            margin-left: 7rem;
-
-                            img{
-                                width: 3vw;
-                                margin-bottom: -1rem;
-                            }
-                        }
 
                         button{
+                            display: none;
                             @include buttonStyle;  
                         }
                     }
 
                     p{
+                        display: none;
                         text-align: center;
                         font-size: 1.2rem;
                         margin-top: -2rem;
@@ -76,6 +66,20 @@ $font-color: #572444;
                             font-weight: 600;
                         }
                     }
+
+                    .str{
+                        // display: inline-block;
+                        // margin-left: 7rem;
+                        position: absolute;
+                        top: 2.5rem;
+                        right: 1rem;
+
+                        img{
+                            width: 22vw;
+                            margin-bottom: -1rem;
+                        }
+                    }
+
                 }
 
                 .header-bottom{
@@ -117,49 +121,50 @@ $font-color: #572444;
                         
                     }
 
-                    .bt-center {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center; /* সবকিছু হরিজন্টালি সেন্টারে */
+                    // .bt-center {
+                    //     display: flex;
+                    //     align-items: center;
+                    //     justify-content: center; /* সবকিছু হরিজন্টালি সেন্টারে */
                         
 
-                        .ctn-iamge {
-                            // position: relative; /* ভেতরের absolute child গুলো ধরে রাখবে */
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
+                    //     .ctn-iamge {
+                    //         // position: relative; /* ভেতরের absolute child গুলো ধরে রাখবে */
+                    //         display: flex;
+                    //         align-items: center;
+                    //         justify-content: center;
 
-                            height: 60vh;
+                    //         height: 60vh;
                             
 
-                            img {
-                                max-width: 100%;
-                                // height: 110%;
-                            }
+                    //         img {
+                    //             max-width: 100%;
+                    //             // height: 110%;
+                    //         }
 
-                            /* Left Image */
-                            .ctn-img-1 {
-                                margin-right: -24.5rem; /* প্রয়োজনে কম-বেশি করো */
-                                z-index: 1;
-                            }
+                    //         /* Left Image */
+                    //         // .ctn-img-1 {
+                    //         //     margin-right: -24.5rem; /* প্রয়োজনে কম-বেশি করো */
+                    //         //     z-index: 1;
+                    //         // }
 
-                            /* Middle Image */
-                            .ctn-img-2 {
-                                margin-top: -2rem;
-                                height: 110% ;
-                                z-index: 2; /* সবসময় উপরে থাকবে */
-                                // position: relative;
+                    //         // /* Middle Image */
+                    //         // .ctn-img-2 {
+                    //         //     margin-top: -2rem;
+                    //         //     height: 110% ;
+                    //         //     z-index: 2; /* সবসময় উপরে থাকবে */
+                    //         //     // position: relative;
                         
 
-                            }
+                    //         // }
 
-                            /* Right Image */
-                            .ctn-img-3 {
-                                margin-left: -23.5rem; /* প্রয়োজনে কম-বেশি করো */
-                                z-index: 1;
-                            }
-                        }
-                        }
+                    //         // /* Right Image */
+                    //         // .ctn-img-3 {
+                    //         //     margin-left: -23.5rem; /* প্রয়োজনে কম-বেশি করো */
+                    //         //     z-index: 1;
+                    //         // }
+                    //     }
+                    //     }
+                    
 
                     .bt-right{
                         transform: translateY(-50%);
