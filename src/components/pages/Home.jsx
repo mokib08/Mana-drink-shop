@@ -52,14 +52,16 @@ const Home = () => {
             </div>
             
             <div className='bt-right'>
-              <i class="fa-solid fa-bolt"></i>
-              <p>The drink of the nation.</p>
-              <div className="btn">
-                <button className='btn-1'>Caffeine</button>
-                <button className='btn-2'>Citric acid</button><br />
-                <button className='btn-3'>lemon</button>
-                <button className='btn-4'>cane sugar</button>
-              </div>
+             <div>
+               <i class="fa-solid fa-bolt"></i>
+                <p>The drink of the nation.</p>
+                <div className="btn">
+                  <button className='btn-1'>Caffeine</button>
+                  <button className='btn-2'>Citric acid</button><br />
+                  <button className='btn-3'>lemon</button>
+                  <button className='btn-4'>cane sugar</button>
+                </div>
+             </div>
             </div>
           </div>
         </div>
