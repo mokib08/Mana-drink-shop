@@ -1,0 +1,117 @@
+$font-color: #572444;
+
+@font-face{
+  font-family: 'h1Font';
+  src: url('../src/assets/font/PTSerif-Bold.ttf');
+
+}
+
+@mixin buttonStyle{
+         border: 2px solid #111;
+        padding: 0.8rem 1rem ;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        font-family: 'firstFont';
+        transform: translateY(-40%);
+
+        .arrow {
+            
+            background: $font-color;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50px;
+            margin-right: -10px;
+            margin-left: 1.5rem;
+        }
+}
+
+    .section-5{
+        margin-top: 3rem;
+
+        .section5-parant{
+            width: 96vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+
+
+
+            .section5-child-1{
+                width: 100vw;
+                padding: 0 3rem;
+                .sec5-imgIcon{
+                    text-align: center;
+                    font-size: 4rem;
+                }
+
+                .sec5-textIcon{
+                    
+                    text-align: center;
+                    margin-top: -2rem;
+                    span{
+                        width: 8rem;
+                        text-align: center;
+                        background: #f5b864;
+                        padding: 0.4rem;
+                        font-weight: 600;
+                        font-size: 0.9rem;
+                        margin-top: -2rem;
+                        text-transform: uppercase;
+                        border-radius: 50px;
+                    }
+                    
+                }
+
+                .sec5-title{
+                    
+                    h1{
+                        font-size: 1.6rem;
+                        text-align: left;
+                        margin-top: 2rem;
+                        color:#431331;
+                        padding: 0 0.9rem;
+                    }
+                }
+
+                .image-text{
+                    display: flex;
+                    align-items: center;
+                    gap: 1.2rem;
+                    margin-top: 1.5rem;
+
+                    .left-img{
+                        padding: 0 0.8rem;
+                        img{
+                            width: 13vw;
+                            // height: 8vh;
+                            object-fit: cover;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .right-text{
+                        font-weight: 600;
+                        p{
+                            margin: 0;
+                            font-size: 1.2rem;
+                            color: #431331;
+                        }
+                        span{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .section5-child2{
+                width: 100vw;
+                margin-top: 3rem;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }

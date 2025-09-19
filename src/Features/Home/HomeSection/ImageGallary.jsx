@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
-import productImg1 from '../../assets/image/product-img-1.jpg'
-import productImg2 from '../../assets/image/product-img-2.jpg'
-import productImg3 from '../../assets/image/product-img-3.jpg'
-import productImg4 from '../../assets/image/product-img-4.jpg'
-import productImg5 from '../../assets/image/product-img-5.jpg'
-import productImg6 from '../../assets/image/product-img-6.jpg'
-import productImg7 from '../../assets/image/product-img-7.jpg'
-import productImg8 from '../../assets/image/product-img-8.jpg'
+import productImg1 from '../../../assets/image/product-img-1.jpg'
+import productImg2 from '../../../assets/image/product-img-2.jpg'
+import productImg3 from '../../../assets/image/product-img-3.jpg'
+import productImg4 from '../../../assets/image/product-img-4.jpg'
+import productImg5 from '../../../assets/image/product-img-5.jpg'
+import productImg6 from '../../../assets/image/product-img-6.jpg'
+import productImg7 from '../../../assets/image/product-img-7.jpg'
+import productImg8 from '../../../assets/image/product-img-8.jpg'
 import './ImageGallery.scss';
 
 

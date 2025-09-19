@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "h1Font";
+  src: url("../src/assets/font/PTSerif-Bold.ttf");
+}
+.header-section {
+  position: relative;
+  background: linear-gradient(#f9e3f1, #fdeffd, #fffdff);
+  background-repeat: no-repeat;
+}
+.header-section .section-1 {
+  overflow: hidden;
+}
+.header-section .section-1 .child-div-1 {
+  margin-top: 4.5rem;
+}
+.header-section .section-1 .child-div-1 h1 {
+  font-family: "h1Font";
+  font-size: 3.3rem;
+  color: #572444;
+}
+.header-section .section-1 .child-div-1 h1 button {
+  display: none;
+  border: 2px solid #111;
+  padding: 0.8rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "firstFont";
+  transform: translateY(-40%);
+}
+.header-section .section-1 .child-div-1 h1 button .arrow {
+  background: #572444;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: -10px;
+  margin-left: 1.5rem;
+}
+.header-section .section-1 .child-div-1 p {
+  display: none;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: -2rem;
+}
+.header-section .section-1 .child-div-1 p bold {
+  font-weight: 600;
+}
+.header-section .section-1 .child-div-1 .str {
+  position: absolute;
+  top: 4rem;
+  right: 1rem;
+}
+.header-section .section-1 .child-div-1 .str img {
+  width: 22vw;
+  margin-bottom: -1rem;
+}
+.header-section .section-1 .header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 4rem;
+  margin-bottom: -5rem;
+}
+.header-section .section-1 .header-bottom .bt-left {
+  display: none;
+  width: 13vw;
+}
+.header-section .section-1 .header-bottom .bt-left .left-img img {
+  width: 3vw;
+  height: 3vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.header-section .section-1 .header-bottom .bt-left .left-img .img-2 {
+  margin-left: -0.5rem;
+}
+.header-section .section-1 .header-bottom .bt-left h3 {
+  line-height: 25px;
+  margin: 0.7rem 0;
+  color: #572444;
+}
+.header-section .section-1 .header-bottom .bt-left p {
+  font-size: 13px;
+  margin: 0.7rem 0;
+  font-weight: 600;
+  color: #431331;
+}
+.header-section .section-1 .header-bottom .bt-center {
+  margin-top: -4rem;
+  margin-bottom: 7rem;
+}
+.header-section .section-1 .header-bottom .bt-center .ctn-iamge img {
+  width: 100%;
+}
+.header-section .section-1 .header-bottom .bt-right {
+  transform: translateY(-50%);
+  margin-left: -7rem;
+  margin-bottom: 3rem;
+}
+.header-section .section-1 .header-bottom .bt-right div i {
+  color: #ffa1d5;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.3rem;
+}
+.header-section .section-1 .header-bottom .bt-right div p {
+  font-weight: 600;
+}
+.header-section .section-1 .header-bottom .bt-right div .btn button {
+  color: #111;
+  padding: 0.6rem 1rem;
+  margin: 0.2rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: firstFont;
+}
+.header-section .section-1 .header-bottom .bt-right div .btn .btn-1 {
+  background-color: #e3c7d8;
+}
+.header-section .section-1 .header-bottom .bt-right div .btn .btn-2 {
+  background-color: #f5b864;
+}
+.header-section .section-1 .header-bottom .bt-right div .btn .btn-3 {
+  background-color: #ffa1d5;
+  color: #5c0e3e;
+}
+.header-section .section-1 .header-bottom .bt-right div .btn .btn-4 {
+  background-color: #87d1f0;
+}
+.header-section .section-2 {
+  width: 96vw;
+  overflow: hidden;
+  background: #ffffff;
+  border-top: 1px solid #3e3e3e;
+}
+.header-section .section-2 .wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 5rem;
+  overflow: hidden;
+}
+.header-section .section-2 .wrapper .left-div {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.header-section .section-2 .wrapper .left-div img {
+  width: 90vw;
+  transform: rotate(-15deg);
+}
+.header-section .section-2 .wrapper .center-div {
+  position: absolute;
+  text-align: center;
+  margin-top: 2rem;
+  z-index: 999;
+}
+.header-section .section-2 .wrapper .center-div small {
+  background-color: #e3c9d8;
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.header-section .section-2 .wrapper .center-div h1 {
+  font-family: "h1Font";
+  font-size: 3rem;
+  color: #572444;
+  line-height: 3.5rem;
+  margin: 1rem 0;
+  padding: 0 0.4rem;
+}
+.header-section .section-2 .wrapper .center-div p {
+  color: #28091a;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+.header-section .section-2 .wrapper .center-div img {
+  position: absolute;
+  width: 20vw;
+}
+.header-section .section-2 .wrapper .center-div .image-1 {
+  bottom: 7rem;
+  right: 1rem;
+}
+.header-section .section-2 .wrapper .center-div .image-2 {
+  text-align: center;
+  top: -4rem;
+  right: 35vw;
+}
+.header-section .section-2 .wrapper .center-div button {
+  border: 2px solid #111;
+  padding: 0.8rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "firstFont";
+  transform: translateY(-40%);
+  margin-top: 10rem;
+}
+.header-section .section-2 .wrapper .center-div button .arrow {
+  background: #572444;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: -10px;
+  margin-left: 1.5rem;
+}
+.header-section .section-2 .wrapper .right-div img {
+  width: 90vw;
+  margin-top: -7rem;
+  margin-right: -15rem;
+  transform: rotate(20deg);
+}/*# sourceMappingURL=HeaderSection.css.map */

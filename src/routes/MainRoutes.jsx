@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../components/pages/Home'
-import Shop from '../components/pages/Shop'
-import Story from '../components/pages/Story'
-import Blog from '../components/pages/Blog'
-import Community from '../components/pages/Community'
+import Home from '../Features/Home/Home'
+import Shop from '../Features/Shop/Shop'
+import Story from '../Features/Story/Story'
+import Blog from '../Features/Blog/Blog'
+import Community from '../Features/Community/Community'
 
 const MainRoutes = () => {
   return (

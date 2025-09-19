@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "h1Font";
+  src: url("../src/assets/font/PTSerif-Bold.ttf");
+}
+.main-home {
+  width: 100%;
+  overflow: hidden;
+}/*# sourceMappingURL=Home.css.map */
