@@ -35,7 +35,7 @@ const EnergySection = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
   )
 }
 
