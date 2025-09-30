@@ -15,10 +15,20 @@ const HeaderSection = () => {
     <div className='header-section'>
         <div className='section-1'>
             <div className='child-div-1'>
-            <h1>Just say goodbye to <br />  being thirsty. <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button> </h1>
+                <div>
+                    <div className='str'><img src={str} alt="" /></div>
+                    <h1>
+                      <div className='h1-first'>Just say goodbye to </div>
+                      <div className='h1-second'> being thirsty. 
+                        <button>Drink it Up <i className="arrow ri-arrow-right-line"></i>
+                        </button> 
+                      </div>
+                        
+                    </h1>
+                </div>
 
-            <p>Thirst <bold>quenching</bold> drink made just for you.</p>
-            <div className='str'><img src={str} alt="" /></div>
+                <p>Thirst <bold>quenching</bold> drink made just for you.</p>
+                
             </div>
 
             <div className="header-bottom">
@@ -55,7 +65,7 @@ const HeaderSection = () => {
 
         <div className="section-2">
             <div className='wrapper'>
-            <div className='right-div'><img src={img4} alt="" /></div>
+            <div className='left-div'><img src={img1} alt="" /></div>
             <div className='center-div'>
                 <img className='image-1' src={orange} alt="" />
                 <img className='image-2' src={leaf} alt="" />
@@ -66,8 +76,8 @@ const HeaderSection = () => {
                 <button>Drink it Up <i className="arrow ri-arrow-right-line"></i></button>
             </div>
 
-            <div className='left-div'><img src={img1} alt="" /></div>
-
+            
+            <div className='right-div'><img src={img4} alt="" /></div>
             
             
             </div>

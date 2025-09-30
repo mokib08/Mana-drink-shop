@@ -4,7 +4,7 @@ import './Footer.scss'
 
 const Footer = () => {
     return (
-        <div>
+        <div className='footer'>
             <div className='footer-top'>
                 <div className="footer-icon">
                     <img src={logo} alt="" />

@@ -29,6 +29,7 @@ $font-color: #572444;
 }
 
     .header-section{
+        width: 100%;
           position: relative;
           background: linear-gradient(#f9e3f1, #fdeffd, #fffdff );
           background-repeat: no-repeat;
@@ -114,55 +115,12 @@ $font-color: #572444;
                         
                     }
 
-                    // .bt-center {
-                    //     display: flex;
-                    //     align-items: center;
-                    //     justify-content: center; /* সবকিছু হরিজন্টালি সেন্টারে */
-                        
-
-                    //     .ctn-iamge {
-                    //         // position: relative; /* ভেতরের absolute child গুলো ধরে রাখবে */
-                    //         display: flex;
-                    //         align-items: center;
-                    //         justify-content: center;
-
-                    //         height: 60vh;
-                            
-
-                    //         img {
-                    //             max-width: 100%;
-                    //             // height: 110%;
-                    //         }
-
-                    //         /* Left Image */
-                    //         // .ctn-img-1 {
-                    //         //     margin-right: -24.5rem; /* প্রয়োজনে কম-বেশি করো */
-                    //         //     z-index: 1;
-                    //         // }
-
-                    //         // /* Middle Image */
-                    //         // .ctn-img-2 {
-                    //         //     margin-top: -2rem;
-                    //         //     height: 110% ;
-                    //         //     z-index: 2; /* সবসময় উপরে থাকবে */
-                    //         //     // position: relative;
-                        
-
-                    //         // }
-
-                    //         // /* Right Image */
-                    //         // .ctn-img-3 {
-                    //         //     margin-left: -23.5rem; /* প্রয়োজনে কম-বেশি করো */
-                    //         //     z-index: 1;
-                    //         // }
-                    //     }
-                    //     }
                     .bt-center{
                        margin-top: -4rem;
                        margin-bottom: 7rem;
                         .ctn-iamge{
                             img{
-                                width: 100%;
+                                width: 90vw;
                                 // height: 60vh;
                             }
                         }
@@ -220,10 +178,10 @@ $font-color: #572444;
             }
 
         .section-2{
-            width: 96vw;
+            // width: 96vw;
             overflow: hidden;
             background: #ffffff;
-            border-top: 1px solid #3e3e3e;
+            border-top: 1px solid #3e3e3e !important;
            
 
 
@@ -236,19 +194,15 @@ $font-color: #572444;
                 gap: 5rem;
                 // padding-bottom: 10rem;
                 overflow:hidden;
+                height: 90vh;
                 
 
                 .left-div{
-                    margin: auto;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin-top: 5rem;
+
+                    transform: translateY(120%);
                 
                     img{
                         width: 90vw;
-                        // margin-bottom: -10rem;
-                        // margin-left: -4rem;
                         transform: rotate(-15deg);
                     }
                 }
@@ -256,10 +210,8 @@ $font-color: #572444;
                 
                 .center-div{
                     position: absolute;
-                    // width:34vw;
                     text-align: center;
-                    margin-top: 2rem;
-                    // padding-top: 5rem;
+                    padding-top: 9rem;
                     z-index: 999;
 
 
@@ -295,13 +247,14 @@ $font-color: #572444;
                         width: 20vw;
                     }
                     .image-1{
+                        display: block;
                         bottom: 7rem;
                         right: 1rem;
                     }
 
                     .image-2{
                         text-align: center;
-                        top: -4rem;
+                        top:5.5rem;
                         right: 35vw;
 
                     }
@@ -317,9 +270,9 @@ $font-color: #572444;
 
                 .right-div{
                     
+                    transform: translateY(-150%);
                 img{
                     width: 90vw;
-                    margin-top: -7rem;
                     margin-right: -15rem;
                     transform: rotate(20deg);
                 }
@@ -329,3 +282,178 @@ $font-color: #572444;
             
         }
     }
+
+
+
+
+@media (min-width: 900px) {
+    .header-section{
+        .child-div-1{
+            margin-top: 4.5rem;
+            div{
+                .str{
+                    position: fixed;
+                    margin-top: 7rem;
+                    left: 20vw;
+
+                    img{
+                        width: 12vw !important;
+                    }
+
+                }
+                h1{
+                    font-family: 'h1Font';
+                    font-size: 5rem !important;
+                    // line-height: 6rem;
+                    color: $font-color;
+
+                   .h1-second{
+                        padding-left: 12rem;
+
+                        button{
+                            display: inline-block !important;
+                            @include buttonStyle;  
+                            font-size: 1.1rem;
+                        }
+                   }
+
+                }
+            }
+
+            p{
+                display: block !important;
+                font-size: 1.5rem !important;
+                padding-top: 1rem;
+            }
+            
+         }
+
+        .header-bottom{
+
+            flex-direction:row !important;
+             margin-bottom: -11.7rem !important;
+
+            .bt-left{
+                display: block !important;
+                width: 20vw !important;
+                padding-bottom: 5rem !important;
+            }
+
+             .bt-center{
+                margin-top: -4rem;
+                margin-bottom: 7rem;
+                .ctn-iamge{
+                    img{
+                        width: 40vw !important;
+                        // height: 60vh;
+                    }
+                }
+            }
+
+
+            .bt-right{
+                    transform: translateY(-50%);
+                    margin-left: 0 !important;
+                    margin-bottom: 0 !important;
+
+            }
+
+        }
+
+        .section-2{
+            .wrapper{
+                
+                flex-direction: row ;
+                height: 90vh;
+
+                 .left-div{
+                    transform: translateY(0%);
+                
+                    img{
+                        width: 50vw;
+                        margin-bottom: -32rem;
+                        margin-left: -25rem;
+                        transform: rotate(-15deg);
+                    }
+                }
+                
+                .center-div{
+                    width:45vw;
+
+                    small{
+                        background-color: #e3c9d8;
+                        padding: 1rem;
+                        border-radius: 50px;
+                        font-size: 1.2rem;
+                        font-weight: 600;
+                    }
+
+
+                    h1{
+                        font-family: "h1Font";
+                        font-size: 4rem;
+                        color: #572444;
+                        line-height: 4.5rem;
+                        margin: 2.5rem 0;
+                        padding: 0 0.4rem;
+                    }
+
+                    p{
+                        color: #28091a;
+                        font-weight: 600;
+                        font-size: 1.4rem;
+                        text-align: center;
+                        padding: 0 2rem;
+                    }
+
+
+                    img{
+                        position: absolute;
+                        width: 10vw;
+                    }
+                    .image-1{
+                        display: none;
+                    }
+
+                    .image-2{
+                        top: 35rem;
+                        right: -12rem;
+
+                    }
+
+
+                    button{
+                        @include buttonStyle;
+                        margin-top: 3rem;
+                        padding: 0.8rem 1rem ;
+                        border-radius: 50px;
+                        font-size: 1.3rem;
+                    }
+
+                }
+
+
+
+
+               
+
+
+                .right-div{
+                    
+                    margin-right: -17rem;
+                    transform: translateY(-10%);
+
+                    img{
+                        width: 50vw;
+                        margin-top: -20rem;
+                        transform: rotate(20deg);
+                    }
+                }
+
+            }
+        }
+
+
+        
+    }
+}
