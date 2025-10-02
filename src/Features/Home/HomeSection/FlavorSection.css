@@ -3,40 +3,44 @@
   src: url("../src/assets/font/PTSerif-Bold.ttf");
 }
 .section-3 {
-  width: 96vw;
   margin-top: 4rem;
 }
-.section-3 h1 {
-  font-size: 1.6rem;
-  margin-bottom: 0;
-  color: #431331;
-  text-align: center;
+.section-3 .top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
-.section-3 .Expire {
+.section-3 .top-bar h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.1rem;
+  margin-left: -2rem;
+  color: #431331;
+  font-family: "h1Font";
+}
+.section-3 .top-bar .Expire {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
   padding-top: 0rem;
 }
-.section-3 .Expire img {
+.section-3 .top-bar .Expire img {
   width: 13vw;
   padding: 0;
 }
-.section-3 .Expire p {
+.section-3 .top-bar .Expire p {
   font-size: 1.1rem;
   font-weight: 500;
   margin-top: 0.5rem;
 }
 .section-3 .flavor-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
 }
 .section-3 .flavor-card .card {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,4 +77,31 @@
 }
 .section-3 .flavor-card .card-3 {
   background-color: #f35cb2;
+}
+
+@media (min-width: 900px) {
+  .section-3 {
+    padding: 0 3rem;
+  }
+  .section-3 .top-bar {
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+  .section-3 .top-bar h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0rem;
+  }
+  .section-3 .top-bar .Expire {
+    width: 35%;
+    margin-bottom: 0rem;
+  }
+  .section-3 .top-bar .Expire img {
+    width: 8vw;
+    padding: 0;
+  }
+  .section-3 .top-bar .Expire p {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
 }/*# sourceMappingURL=FlavorSection.css.map */

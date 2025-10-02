@@ -27,44 +27,56 @@ $font-color: #572444;
 }
 
    .section-3{
-        width: 96vw;
+        // width: 96vw;
         margin-top: 4rem;
-        h1{
-            font-size: 1.6rem;
-            margin-bottom: 0;
-            color:#431331;
-            text-align: center;
-        }
 
-        .Expire{
+
+        .top-bar{
+
             display: flex;
             align-items: center;
-            justify-content: center;
-            // gap: 1.9rem;
-            margin-bottom: 2rem;
-            padding-top: 0rem;
+            justify-content: space-between;
+            flex-direction: column;
 
-            img{
-                width: 13vw;
-                padding: 0;
-            }
-            p{
-                font-size: 1.1rem;
-                font-weight: 500;
-                margin-top: 0.5rem;
-            }
+                h1{
+                    font-size: 1.6rem;
+                    margin-bottom: 0.1rem;
+                    margin-left: -2rem;
+                    color:#431331;
+                    font-family: 'h1Font';
+                    // text-align: center;
+                }
+
+                .Expire{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // gap: 1.9rem;
+                    margin-bottom: 1.2rem;
+                    padding-top: 0rem;
+
+                    img{
+                        width: 13vw;
+                        padding: 0;
+                    }
+                    p{
+                        font-size: 1.1rem;
+                        font-weight: 500;
+                        margin-top: 0.5rem;
+                    }
+                }
         }
+  
 
         .flavor-card{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
                 gap: 1rem;
 
             .card{
                 
-                width: 100%;
+                // width: 100%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -111,3 +123,45 @@ $font-color: #572444;
             }
         }
     }
+
+
+
+//  responsive part 
+
+@media (min-width: 900px) {
+    .section-3{
+        padding: 0 3rem;
+        .top-bar{
+            flex-direction: row;
+            margin-bottom: 2rem;
+            h1{
+                font-size: 3.5rem;
+                margin-bottom: 1.5rem;
+                margin-left: 0rem;
+            }
+
+            .Expire{
+                width: 35%;
+                margin-bottom: 0rem;
+
+                img{
+                    width: 8vw;
+                    padding: 0;
+                }
+                p{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        // .flavor-card{
+        //     flex-direction: row;
+        //     gap: 3rem;
+
+        //     .card{
+
+        //     }
+        // }
+    }
+}

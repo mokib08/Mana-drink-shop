@@ -10,27 +10,29 @@ const FlavorSection = () => {
   return (
     <div>
         <div className="section-3">   
-            <h1>Taste the flover sensation</h1>
-            <div className='Expire'>
-                <img src={unnamed} alt="" />
-                <p>From june to August, this is what we drink.</p>
-            </div>
+                <div className="top-bar">
+                  <h1>Taste the flover sensation</h1>
+                  <div className='Expire'>
+                      <img src={unnamed} alt="" />
+                      <p>From june to August, this is what we drink.</p>
+                  </div>
+                </div>
     
                 <div className="flavor-card">
                     <div className='card card-1'>
-                    <span><i class="ri-star-s-fill"></i> 4.7</span>
-                    <img src={img4} alt="" />
-                    <button>Black Berry & Hibiscus</button>
+                        <span><i class="ri-star-s-fill"></i> 4.7</span>
+                        <img src={img4} alt="" />
+                        <button>Black Berry & Hibiscus</button>
                     </div>
                     <div className='card card-2'>
-                    <span><i class="ri-star-s-fill"></i> 4.7</span>
-                    <img src={img3} alt="" />
-                    <button>Black Berry & Hibiscus</button>
+                        <span><i class="ri-star-s-fill"></i> 4.7</span>
+                        <img src={img3} alt="" />
+                        <button>Black Berry & Hibiscus</button>
                     </div>
                     <div className='card card-3'>
-                    <span><i class="ri-star-s-fill"></i> 4.7</span>
-                    <img src={img1} alt="" />
-                    <button>Black Berry & Hibiscus</button>
+                        <span><i class="ri-star-s-fill"></i> 4.7</span>
+                        <img src={img1} alt="" />
+                        <button>Black Berry & Hibiscus</button>
                     </div>
                 </div>
         </div>

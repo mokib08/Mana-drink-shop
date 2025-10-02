@@ -12,7 +12,7 @@ const EnergySection = () => {
                 <div className='section4-leftBox'>
                 <div className="parent-1">
                     <span> <i class="ri-sun-line"></i> Boost Eneroy</span>
-                    <h1>Drink your way to happiness</h1>
+                    <h1>Drink your <br /> way to happiness</h1>
                     <h3>Get you energy on every sip</h3>
                     <p>A gentle wave of energy to active you without Jittering.</p>
                 </div>
@@ -27,11 +27,15 @@ const EnergySection = () => {
                 </div>
     
                 <div className='section4-rightBox'>
-                <img src={lastingEnergy2} alt="" />
-                <div className="">
-                    <p>A special blend of Taurine, and Vitamins provide smooth long lasting energy</p>
-                    <button>Our Story <i class="ri-arrow-right-line"></i></button>
-                </div>
+                    <div className='rightBox-parent'>
+                         <div className="image">
+                            <img src={lastingEnergy2} alt="" />
+                        </div>
+                        <div className="description">
+                            <p>A special blend of Taurine, and Vitamins provide smooth long lasting energy</p>
+                            <button>Our Story <i class="ri-arrow-right-line"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

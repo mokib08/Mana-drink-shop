@@ -379,12 +379,13 @@ $font-color: #572444;
                 
                 .center-div{
                     width:45vw;
+                     padding-top: 0rem;
 
                     small{
                         background-color: #e3c9d8;
                         padding: 1rem;
                         border-radius: 50px;
-                        font-size: 1.2rem;
+                        font-size: 0.9rem;
                         font-weight: 600;
                     }
 
@@ -416,7 +417,7 @@ $font-color: #572444;
                     }
 
                     .image-2{
-                        top: 35rem;
+                        top: 25rem;
                         right: -12rem;
 
                     }
@@ -427,7 +428,7 @@ $font-color: #572444;
                         margin-top: 3rem;
                         padding: 0.8rem 1rem ;
                         border-radius: 50px;
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
 
                 }
